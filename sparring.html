@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Title -->
+    <title>PUSRAGA | Pusat Arena Olahraga</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/core-img/favicon-pusraga.png" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/master-style/style.css" />
+    <link rel="stylesheet" href="css/modified-style/style.css" />
+  </head>
+
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
+
+    <!-- Header Area Start -->
+    <header class="header-area">
+      <!-- Main Header Start -->
+      <div class="main-header-area">
+        <div class="classy-nav-container breakpoint-off">
+          <div class="container">
+            <!-- Classy Menu -->
+            <nav class="classy-navbar justify-content-between" id="robertoNav">
+              <!-- Logo -->
+              <a class="nav-brand" href="index.html">
+                <!-- <img src="./img/core-img/logo.png" alt=""> -->
+                PUSRAGA
+              </a>
+
+              <!-- Navbar Toggler -->
+              <div class="classy-navbar-toggler">
+                <span class="navbarToggler"
+                  ><span></span><span></span><span></span
+                ></span>
+              </div>
+
+              <!-- Menu -->
+              <div class="classy-menu">
+                <!-- Menu Close Button -->
+                <div class="classycloseIcon">
+                  <div class="cross-wrap">
+                    <span class="top"></span><span class="bottom"></span>
+                  </div>
+                </div>
+                <!-- Nav Start -->
+                <div class="classynav">
+                  <ul id="nav">
+                    <!-- <li class="active"><a href="./index.html">Home</a></li> -->
+                    <li><a href="./search-arena.html">Booking Arena</a></li>
+                    <li>
+                      <a href="#">Layanan</a>
+                      <ul class="dropdown">
+                        <li><a href="./team.html">- Tim</a></li>
+                        <li><a href="./ticket.html">- Tiket</a></li>
+                        <li><a href="./sparring.html">- Sparring</a></li>
+                        <li><a href="./tournament.html">- Turnamen</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Tentang Kami</a>
+                      <ul class="dropdown">
+                        <li><a href="./about.html">- Tentang Kami</a></li>
+                        <li><a href="./contact.html">- Kontak</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="./news.html">Berita</a></li>
+                  </ul>
+
+                  <!-- Search -->
+                  <!-- <div class="search-btn ml-4">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </div> -->
+
+                  <!-- Book Now -->
+                  <!-- <div class="book-now-btn ml-3 ml-lg-5">
+                                        <a href="#">Book Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                    </div> -->
+
+                  <!-- Login & Register -->
+                  <div class="loginRegister-btn ml-3 ml-lg-5">
+                    <a href="login.html" class="login-btn">Masuk</a>
+                    <a href="register.html" class="register-btn">Daftar</a>
+                  </div>
+                  <!-- Register -->
+                  <div class="register-btn ml-3 ml-lg-5"></div>
+                </div>
+                <!-- Nav End -->
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Area End -->
+
+    <div class="pusraga-team-area section-padding-80-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <nav class="bg-light h-100">
+              <div class="p-4">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="breadcrumb-content">
+                      <h2 class="page-title">SPARRING TIM</h2>
+                      <h6 class="page-subtitle">Asah kemampuanmu sekarang!</h6>
+                    </div>
+                  </div>
+                </div>
+                <hr class="mb-1" />
+                <div class="row tab-navigation" style="margin: 0;">
+                  <select id="select-box">
+                    <option value="1">Jadwal Sparring</option>
+                    <option value="2">Permintaan Anggota Sparring</option>
+                    <option value="3">Undangan Sparring</option>
+                    <option value="4">Buat Sparring</option>
+                    <option value="5">Bergabung Sparring</option>
+                    <option value="6">Riwayat Sparring</option>
+                  </select>
+                </div>
+                <ul class="list-unstyled components mb-5">
+                  <li class="active" id="1">
+                    <a href="#" class="d-flex">
+                      <span class="fa fa-users mr-3"></span>
+                      <div>Jadwal Sparring</div>
+                    </a>
+                  </li>
+                  <li id="2">
+                    <a href="#" class="d-flex">
+                      <span class="fa fa-inbox mr-3"></span>
+                      <div>
+                        Permintaan Anggota Sparring
+                        <small class="text-muted">(2)</small>
+                      </div>
+                    </a>
+                  </li>
+                  <li id="3">
+                    <a href="#" class="d-flex">
+                      <span class="fa fa-envelope mr-3"></span>
+                      <div>
+                        Undangan Sparring <small class="text-muted">(2)</small>
+                      </div>
+                    </a>
+                  </li>
+                  <li id="4">
+                    <a href="#" class="d-flex">
+                      <span class="fa fa-user-plus mr-3"></span>
+                      <div>Buat Sparring</div>
+                    </a>
+                  </li>
+                  <li id="5">
+                    <a href="#" class="d-flex">
+                      <span class="fa fa-handshake-o mr-3"></span>
+                      <div>Bergabung Sparring</div>
+                    </a>
+                  </li>
+                  <li id="6">
+                    <a href="#" class="d-flex">
+                      <span class="fa fa-list mr-3"></span>
+                      <div>Riwayat Sparring</div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div class="col-12 col-lg-8">
+            <div class="tab-content">
+              <div class="tab-pane" id="tab-1">
+                <h1 class="mt-4 mb-4">Jadwal Sparring</h1>
+                <div class="sparring-match-list container mb-3">
+                  <div class="row">
+                    <div class="col-12 col-lg-6" style="text-align: center;">
+                      <div class="match-item-all mt-3 mb-3 row">
+                        <div class="sparring-match-item-team col-5">
+                          <div class="sticker-mt">
+                            TIM Saya
+                          </div>
+                          <img
+                            class="attachment-thumbnail size-thumbnail"
+                            src="img/bg-img/150x150.png"
+                            alt=""
+                            sizes="(max-width: 150px) 100vw, 150px"
+                          />
+                          <div class="team-name">TIM1</div>
+                        </div>
+                        <div class="sparring-match-item-vs col-2">
+                          VS
+                        </div>
+                        <div class="sparring-match-item-team col-5">
+                          <img
+                            class="attachment-thumbnail size-thumbnail"
+                            src="img/bg-img/150x150.png"
+                            alt=""
+                            sizes="(max-width: 150px) 100vw, 150px"
+                          />
+                          <div class="team-name">TIM2</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="match-detail-all col-12 col-lg-6 text-center">
+                      <span class="badge badge-info">FUTSAL</span>
+                      <div class="">
+                        <span class="date-and-time"
+                          >Sabtu, 09 Oktober 2019 | 20.00 WIB</span
+                        >
+                      </div>
+                      <div class="">
+                        <i class="fa fa-map-marker"></i> &nbsp; Puspitaloka
+                        Sport Center
+                      </div>
+                      <div class="mt-2 mb-2">
+                        <a href="#" class="sparring-detail-btn"
+                          >Detail Sparring</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sparring-match-list container mb-3">
+                  <div class="row">
+                    <div class="col-12 col-lg-6" style="text-align: center;">
+                      <div class="match-item-all mt-3 mb-3 row">
+                        <div class="sparring-match-item-team col-5">
+                          <img
+                            class="attachment-thumbnail size-thumbnail"
+                            src="img/bg-img/150x150.png"
+                            alt=""
+                            sizes="(max-width: 150px) 100vw, 150px"
+                          />
+                          <div class="team-name">TIM1</div>
+                        </div>
+                        <div class="sparring-match-item-vs col-2">
+                          VS
+                        </div>
+                        <div class="sparring-match-item-team col-5">
+                          <div class="sticker-mt">
+                            TIM Saya
+                          </div>
+                          <img
+                            class="attachment-thumbnail size-thumbnail"
+                            src="img/bg-img/150x150.png"
+                            alt=""
+                            sizes="(max-width: 150px) 100vw, 150px"
+                          />
+                          <div class="team-name">TIM2</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="match-detail-all col-12 col-lg-6 text-center">
+                      <span class="badge badge-info">FUTSAL</span>
+                      <div class="">
+                        <span class="date-and-time"
+                          >Sabtu, 09 Oktober 2019 | 20.00 WIB</span
+                        >
+                      </div>
+                      <div class="">
+                        <i class="fa fa-map-marker"></i> &nbsp; Puspitaloka
+                        Sport Center
+                      </div>
+                      <div class="mt-2 mb-2">
+                        <a href="#" class="sparring-detail-btn"
+                          >Detail Sparring</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sparring-match-list container mb-3">
+                  <div class="row">
+                    <div class="col-12 col-lg-6" style="text-align: center;">
+                      <div class="match-item-all mt-3 mb-3 row">
+                        <div class="sparring-match-item-team col-5">
+                          <div class="sticker-mt">
+                            TIM Saya
+                          </div>
+                          <img
+                            class="attachment-thumbnail size-thumbnail"
+                            src="img/bg-img/150x150.png"
+                            alt=""
+                            sizes="(max-width: 150px) 100vw, 150px"
+                          />
+                          <div class="team-name">
+                            TIM1
+                          </div>
+                        </div>
+                        <div class="sparring-match-item-vs col-2">
+                          VS
+                        </div>
+                        <div class="sparring-match-item-team col-5">
+                          <img
+                            class="attachment-thumbnail size-thumbnail"
+                            src="img/bg-img/150x150.png"
+                            alt=""
+                            sizes="(max-width: 150px) 100vw, 150px"
+                          />
+                          <div class="team-name">TIM2</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="match-detail-all col-12 col-lg-6 text-center">
+                      <span class="badge badge-info">FUTSAL</span>
+                      <div class="">
+                        <span class="date-and-time"
+                          >Sabtu, 09 Oktober 2019 | 20.00 WIB</span
+                        >
+                      </div>
+                      <div class="">
+                        <i class="fa fa-map-marker"></i> &nbsp; Puspitaloka
+                        Sport Center
+                      </div>
+                      <div class="mt-2 mb-2">
+                        <a href="#" class="sparring-detail-btn"
+                          >Detail Sparring</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <h1 class="mt-4">Permintaan Anggota Sparring</h1>
+                <div class="sparring-match-list container mb-3">
+                  <div class="row">
+                    <div class="col-12 col-lg-6" style="text-align: center;">
+                      <div class="match-item-all mt-3 mb-3 row">
+                        <div class="sparring-match-item-team col-5">
+                          <div class="sticker-mt">
+                            TIM Saya
+                          </div>
+                          <img
+                            class="attachment-thumbnail size-thumbnail"
+                            src="img/bg-img/150x150.png"
+                            alt=""
+                            sizes="(max-width: 150px) 100vw, 150px"
+                          />
+                          <div class="team-name">TIM1</div>
+                        </div>
+                        <div class="sparring-match-item-vs col-2">
+                          VS
+                        </div>
+                        <div class="sparring-match-item-team col-5">
+                          <img
+                            class="attachment-thumbnail size-thumbnail"
+                            src="img/bg-img/150x150.png"
+                            alt=""
+                            sizes="(max-width: 150px) 100vw, 150px"
+                          />
+                          <div class="team-name">TIM2</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="match-detail-all col-12 col-lg-6">
+                      <h4>Agung Supriyadi</h4>
+                      <div class="">
+                        Permintaan Bergabung : TIM1
+                      </div>
+                      <span class="badge badge-info">FUTSAL</span>
+                      <span>
+                        Sabtu, 09 Oktober 2019 | 20.00 WIB
+                      </span>
+                      <div class="mt-2 mb-2">
+                        <a href="#" class="sparring-accept-btn">
+                          Setuju
+                        </a>
+                        <a href="#" class="sparring-reject-btn">
+                          Tolak
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sparring-match-list container mb-3">
+                  <div class="row">
+                    <div class="col-12 col-lg-6" style="text-align: center;">
+                      <div class="match-item-all mt-3 mb-3 row">
+                        <div class="sparring-match-item-team col-5">
+                          <img
+                            class="attachment-thumbnail size-thumbnail"
+                            src="img/bg-img/150x150.png"
+                            alt=""
+                            sizes="(max-width: 150px) 100vw, 150px"
+                          />
+                          <div class="team-name">TIM1</div>
+                        </div>
+                        <div class="sparring-match-item-vs col-2">
+                          VS
+                        </div>
+                        <div class="sparring-match-item-team col-5">
+                          <div class="sticker-mt">
+                            TIM Saya
+                          </div>
+                          <img
+                            class="attachment-thumbnail size-thumbnail"
+                            src="img/bg-img/150x150.png"
+                            alt=""
+                            sizes="(max-width: 150px) 100vw, 150px"
+                          />
+                          <div class="team-name">TIM2</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="match-detail-all col-12 col-lg-6">
+                      <h4>Rahmat Satriadi</h4>
+                      <div class="">
+                        Permintaan Bergabung : TIM2
+                      </div>
+                      <span class="badge badge-info">FUTSAL</span>
+                      <span>
+                        Sabtu, 09 Oktober 2019 | 20.00 WIB
+                      </span>
+                      <div class="mt-2 mb-2">
+                        <a href="#" class="sparring-accept-btn">
+                          Setuju
+                        </a>
+                        <a href="#" class="sparring-reject-btn">
+                          Tolak
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <h1 class="mt-4">Undangan Sparring</h1>
+                <div class="sparring-match-list container mb-3">
+                  <div class="row">
+                    <div class="col-12 col-lg-6" style="text-align: center;">
+                      <div class="match-item-all mt-3 mb-3 row">
+                        <div class="sparring-match-item-team col-5">
+                          <img
+                            class="attachment-thumbnail size-thumbnail"
+                            src="img/bg-img/150x150.png"
+                            alt=""
+                            sizes="(max-width: 150px) 100vw, 150px"
+                          />
+                          <div class="team-name">TIM1</div>
+                        </div>
+                        <div class="sparring-match-item-vs col-2">
+                          VS
+                        </div>
+                        <div class="sparring-match-item-team col-5">
+                          <img
+                            class="attachment-thumbnail size-thumbnail"
+                            src="img/bg-img/150x150.png"
+                            alt=""
+                            sizes="(max-width: 150px) 100vw, 150px"
+                          />
+                          <div class="team-name">TIM2</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="match-detail-all col-12 col-lg-6 text-center">
+                      <h4>TIM2</h4>
+                      <div class="">
+                        Undangan Bergabung : TIM2
+                      </div>
+                      <span class="badge badge-info">FUTSAL</span>
+                      <span>
+                        Sabtu, 09 Oktober 2019 | 20.00 WIB
+                      </span>
+                      <div class="mt-2 mb-2">
+                        <a href="#" class="sparring-accept-btn">
+                          Setuju
+                        </a>
+                        <a href="#" class="sparring-reject-btn">
+                          Tolak
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane create-team-area" id="tab-4">
+                <h1 class="mt-4">Buat Sparring</h1>
+              </div>
+              <div class="tab-pane join-team-area" id="tab-5">
+                <h1 class="mt-4">Bergabung Sparring</h1>
+              </div>
+              <div class="tab-pane join-team-area" id="tab-6">
+                <h1 class="mt-4">Riwayat Sparring</h1>
+                <div class="sparring-match-list container mb-3">
+                  <div class="row">
+                    <div class="col-12 col-lg-6" style="text-align: center;">
+                      <div class="match-item-all mt-3 mb-3 row">
+                        <div class="sparring-match-item-team col-5">
+                          <div class="sticker-mt">
+                            TIM Saya
+                          </div>
+                          <div class="sticker-w">
+                            Menang
+                          </div>
+                          <img
+                            class="attachment-thumbnail size-thumbnail"
+                            src="img/bg-img/150x150.png"
+                            alt=""
+                            sizes="(max-width: 150px) 100vw, 150px"
+                          />
+                          <div class="team-name">TIM1</div>
+                          <div class="team-point">12</div>
+                        </div>
+                        <div class="sparring-match-item-vs col-2">
+                          VS
+                        </div>
+                        <div class="sparring-match-item-team col-5">
+                          <img
+                            class="attachment-thumbnail size-thumbnail"
+                            src="img/bg-img/150x150.png"
+                            alt=""
+                            sizes="(max-width: 150px) 100vw, 150px"
+                          />
+                          <div class="team-name">TIM2</div>
+                          <div class="team-point">11</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="match-detail-all col-12 col-lg-6 text-center">
+                      <span class="badge badge-info">FUTSAL</span>
+                      <div class="">
+                        <span class="date-and-time"
+                          >Sabtu, 09 Oktober 2019 | 20.00 WIB</span
+                        >
+                      </div>
+                      <div class="">
+                        <i class="fa fa-map-marker"></i> &nbsp; Puspitaloka
+                        Sport Center
+                      </div>
+                      <div class="mt-2 mb-2">
+                        <a href="#" class="sparring-detail-btn"
+                          >Detail Sparring</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sparring-match-list container mb-3">
+                  <div class="row">
+                    <div class="col-12 col-lg-6" style="text-align: center;">
+                      <div class="match-item-all mt-3 mb-3 row">
+                        <div class="sparring-match-item-team col-5">
+                          <div class="sticker-mt">
+                            TIM Saya
+                          </div>
+                          <img
+                            class="attachment-thumbnail size-thumbnail"
+                            src="img/bg-img/150x150.png"
+                            alt=""
+                            sizes="(max-width: 150px) 100vw, 150px"
+                          />
+                          <div class="team-name">TIM1</div>
+                          <div class="team-point">9</div>
+                        </div>
+                        <div class="sparring-match-item-vs col-2">
+                          VS
+                        </div>
+                        <div class="sparring-match-item-team col-5">
+                          <div class="sticker-w">
+                            Menang
+                          </div>
+                          <img
+                            class="attachment-thumbnail size-thumbnail"
+                            src="img/bg-img/150x150.png"
+                            alt=""
+                            sizes="(max-width: 150px) 100vw, 150px"
+                          />
+                          <div class="team-name">TIM2</div>
+                          <div class="team-point">10</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="match-detail-all col-12 col-lg-6 text-center">
+                      <span class="badge badge-info">FUTSAL</span>
+                      <div class="">
+                        <span class="date-and-time"
+                          >Sabtu, 09 Oktober 2019 | 20.00 WIB</span
+                        >
+                      </div>
+                      <div class="">
+                        <i class="fa fa-map-marker"></i> &nbsp; Puspitaloka
+                        Sport Center
+                      </div>
+                      <div class="mt-2 mb-2">
+                        <a href="#" class="sparring-detail-btn"
+                          >Detail Sparring</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sparring-match-list container mb-3">
+                  <div class="row">
+                    <div class="col-12 col-lg-6" style="text-align: center;">
+                      <div class="match-item-all mt-3 mb-3 row">
+                        <div class="sparring-match-item-team col-5">
+                          <img
+                            class="attachment-thumbnail size-thumbnail"
+                            src="img/bg-img/150x150.png"
+                            alt=""
+                            sizes="(max-width: 150px) 100vw, 150px"
+                          />
+                          <div class="team-name">TIM1</div>
+                          <div class="team-point">2</div>
+                        </div>
+                        <div class="sparring-match-item-vs col-2">
+                          VS
+                        </div>
+                        <div class="sparring-match-item-team col-5">
+                          <div class="sticker-mt">
+                            TIM Saya
+                          </div>
+                          <div class="sticker-w">
+                            Menang
+                          </div>
+                          <img
+                            class="attachment-thumbnail size-thumbnail"
+                            src="img/bg-img/150x150.png"
+                            alt=""
+                            sizes="(max-width: 150px) 100vw, 150px"
+                          />
+                          <div class="team-name">TIM2</div>
+                          <div class="team-point">5</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="match-detail-all col-12 col-lg-6 text-center">
+                      <span class="badge badge-info">FUTSAL</span>
+                      <div class="">
+                        <span class="date-and-time"
+                          >Sabtu, 09 Oktober 2019 | 20.00 WIB</span
+                        >
+                      </div>
+                      <div class="">
+                        <i class="fa fa-map-marker"></i> &nbsp; Puspitaloka
+                        Sport Center
+                      </div>
+                      <div class="mt-2 mb-2">
+                        <a href="#" class="sparring-detail-btn"
+                          >Detail Sparring</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Area Start -->
+    <footer class="footer-area section-padding-80-0">
+      <!-- Main Footer Area -->
+      <div class="main-footer-area">
+        <div class="container">
+          <div class="row align-items-baseline justify-content-between">
+            <!-- Single Footer Widget Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="single-footer-widget mb-80">
+                <!-- Footer Logo -->
+                <a href="#" class="footer-logo">
+                  <!-- <img src="img/core-img/logo2.png" alt=""> -->
+                  <h1 class="text-white">PUSRAGA</h1>
+                </a>
+                <h4>+62 812-3456-7890</h4>
+                <span>cspusraga@gmail.com</span>
+                <span>Grand Galaxy City Blok A No.1A, Kota Bekasi, 17147</span>
+              </div>
+            </div>
+
+            <!-- Single Footer Widget Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="single-footer-widget mb-80">
+                <!-- Widget Title -->
+                <h5 class="widget-title">Artikel & Berita</h5>
+
+                <!-- Single Blog Area -->
+                <div class="latest-blog-area">
+                  <a href="#" class="post-title"
+                    >Konstruksi Tiga Arena PON XX Rampung</a
+                  >
+                  <span class="post-date"
+                    ><i class="fa fa-clock-o" aria-hidden="true"></i> 31 Mei
+                    2020</span
+                  >
+                </div>
+
+                <!-- Single Blog Area -->
+                <div class="latest-blog-area">
+                  <a href="#" class="post-title"
+                    >6 Juni Jadi Hari Olahraga Berkuda Nasional</a
+                  >
+                  <span class="post-date"
+                    ><i class="fa fa-clock-o" aria-hidden="true"></i> 06 Juni
+                    2020</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Footer Widget Area -->
+            <div class="col-12 col-sm-4 col-lg-2">
+              <div class="single-footer-widget mb-80">
+                <!-- Widget Title -->
+                <h5 class="widget-title">Tautan</h5>
+
+                <!-- Footer Nav -->
+                <ul class="footer-nav">
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-caret-right" aria-hidden="true"></i>
+                      Tentang Kami</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-caret-right" aria-hidden="true"></i> Cari
+                      Arena</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-caret-right" aria-hidden="true"></i>
+                      Karir Pusraga</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-caret-right" aria-hidden="true"></i>
+                      FAQ</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Single Footer Widget Area -->
+            <div class="col-12 col-sm-8 col-lg-4">
+              <div class="single-footer-widget mb-80">
+                <!-- Widget Title -->
+                <h5 class="widget-title">Langganan Newsletter</h5>
+                <span
+                  >Berlangganan newsletter kami dan dapatkan pemberitahuan
+                  tentang pembaruan baru.</span
+                >
+
+                <!-- Newsletter Form -->
+                <form action="index.html" class="nl-form">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Masukkan Emailmu..."
+                  />
+                  <button type="submit">
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copywrite Area -->
+      <div class="container">
+        <div class="copywrite-content">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-8">
+              <!-- Copywrite Text -->
+              <div class="copywrite-text">
+                <p>Copyright &copy;2020 All rights reserved</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <!-- Social Info -->
+              <div class="social-info">
+                <a href="#"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+                <a href="#"
+                  ><i class="fa fa-linkedin" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Area End -->
+
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/roberto.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
+    <script>
+      $(function () {
+        //hide all tabs first
+        $(".tab-pane").hide();
+
+        //show the first tab content
+        $("#tab-1").show();
+
+        var $a = $(".pusraga-team-area .list-unstyled li");
+        $a.click(function () {
+          $a.removeClass("active");
+          $(this).addClass("active");
+          var value = $(this).attr("id");
+          $(".tab-pane").hide(1000);
+          $(".tab-content #tab-" + value).show(1000);
+          $("#select-box").val(value);
+          $("select").niceSelect("update");
+        });
+
+        $("#select-box").change(function () {
+          value = $("#select-box").val();
+          //first hide all tabs again when a new option is selected
+          $(".tab-pane").hide(1000);
+          //then show the tab content of whatever option value was selected
+          $(".tab-content #tab-" + value).show(1000);
+          $(".pusraga-team-area .list-unstyled li").removeClass("active");
+          $(".pusraga-team-area .list-unstyled #" + value).addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>

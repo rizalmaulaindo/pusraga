@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Title -->
+        <title>PUSRAGA | Pusat Arena Olahraga</title>
+    
+        <!-- Favicon -->
+        <link rel="icon" href="./img/core-img/favicon-pusraga.png">
+    
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="css/master-style/style.css">
+        <link rel="stylesheet" href="css/modified-style/style.css">
+    </head>
+    
+    <body>
+        <!-- Preloader -->
+        <div id="preloader">
+            <div class="loader"></div>
+        </div>
+        <!-- /Preloader -->
+
+        <!-- Header Area Start -->
+        <header class="header-area">
+            <!-- Main Header Start -->
+            <div class="main-header-area">
+                <div class="classy-nav-container breakpoint-off">
+                    <div class="container">
+                        <!-- Classy Menu -->
+                        <nav class="classy-navbar justify-content-between" id="robertoNav">
+
+                            <!-- Logo -->
+                            <a class="nav-brand" href="index.html">
+                                <!-- <img src="./img/core-img/logo.png" alt=""> -->
+                                PUSRAGA
+                            </a>
+
+                            <!-- Navbar Toggler -->
+                            <div class="classy-navbar-toggler">
+                                <span class="navbarToggler"><span></span><span></span><span></span></span>
+                            </div>
+
+                            <!-- Menu -->
+                            <div class="classy-menu">
+                                <!-- Menu Close Button -->
+                                <div class="classycloseIcon">
+                                    <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                                </div>
+                                <!-- Nav Start -->
+                                <div class="classynav">
+                                    <ul id="nav">
+                                        <!-- <li class="active"><a href="./index.html">Home</a></li> -->
+                                        <li><a href="./search-arena.html">Booking Arena</a></li>
+                                        <li><a href="#">Layanan</a>
+                                            <ul class="dropdown">
+                                                <li><a href="./team.html">- Tim</a></li>
+                                                <li><a href="./ticket.html">- Tiket</a></li>
+                                                <li><a href="./sparring.html">- Sparring</a></li>
+                                                <li><a href="./tournament.html">- Turnamen</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Tentang Kami</a>
+                                            <ul class="dropdown">
+                                                <li><a href="./about.html">- Tentang Kami</a></li>
+                                                <li><a href="./contact.html">- Kontak</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="./news.html">Berita</a></li>
+                                    </ul>
+
+                                    <!-- Search -->
+                                    <!-- <div class="search-btn ml-4">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </div> -->
+
+                                    <!-- Book Now -->
+                                    <!-- <div class="book-now-btn ml-3 ml-lg-5">
+                                        <a href="#">Book Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                    </div> -->
+
+                                    <!-- Login & Register -->
+                                    <div class="loginRegister-btn ml-3 ml-lg-5">
+                                        <a href="login.html" class="login-btn">Masuk</a>
+                                        <a href="register.html" class="register-btn">Daftar</a>
+                                    </div>
+                                    <!-- Register -->
+                                    <div class="register-btn ml-3 ml-lg-5">
+                                    </div>
+                                </div>
+                                <!-- Nav End -->
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header Area End -->
+
+        <div class="pusraga-team-area section-padding-80-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <nav class="bg-light h-100">
+                            <div class="p-4">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="breadcrumb-content">
+                                            <h2 class="page-title">PUSRAGA TIM</h2>
+                                            <h6 class="page-subtitle">Temukan dan Bentuk TIM terbaik mu</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="mb-1">
+                                <div class="row tab-navigation" style="margin:0;">              
+                                    <select id="select-box">
+                                      <option value="1">TIM Saya</option>
+                                      <option value="2">Permintaan Anggota Baru <small class="text-muted">(5)</small></option>
+                                      <option value="3">Undangan Baru <small class="text-muted">(5)</small></option>
+                                      <option value="4">Buat TIM Baru</option>
+                                      <option value="5">Bergabung dengan TIM</option>
+                                    </select>
+                                </div>
+                                <ul class="list-unstyled components mb-5">
+                                    <li class="active" id="1" >
+                                        <a href="#" class="d-flex">
+                                            <span class="fa fa-users mr-3"></span>
+                                            <div>TIM Saya</div>
+                                        </a>
+                                    </li>
+                                    <li id="2">
+                                        <a href="#" class="d-flex">
+                                            <span class="fa fa-inbox mr-3"></span>
+                                            <div>Permintaan Anggota Baru <small class="text-muted">(5)</small></div>    
+                                        </a>
+                                    </li>
+                                    <li id="3">
+                                        <a href="#" class="d-flex">
+                                            <span class="fa fa-envelope mr-3"></span>
+                                            <div>Undangan Baru <small class="text-muted">(5)</small></div>
+                                        </a>
+                                    </li>
+                                    <li id="4">
+                                        <a  href="#" class="d-flex">
+                                            <span class="fa fa-user-plus mr-3"></span>
+                                            <div>Buat TIM Baru</div>
+                                        </a>
+                                    </li>
+                                    <li id="5">
+                                        <a  href="#" class="d-flex">
+                                            <span class="fa fa-handshake-o mr-3"></span>
+                                            <div>Bergabung dengan TIM</div>                                     
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <div class="tab-content">
+                            <div class="tab-pane" id="tab-1">
+                                <h1 class="mt-4">TIM</h1>
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 mb-4">
+                                        <div class="card" style="padding:10px;">
+                                          <li class="d-flex">
+                                              <img src="img/bg-img/500x500.png" style="width: 75px;
+                                              height: 75px;
+                                              border-radius: 50%;
+                                              border: 2px solid #DEDEDE;
+                                              padding: 2px;">
+                                              <div class="ml-3">
+                                                  <h5 class="card-title" style="margin:0px;">TIM 1</h5>
+                                                  <p style="margin:0px;">Kategori : Futsal</p>
+                                                  <p style="margin:0px;">Jumlah Anggota : 13 Orang</p>
+                                                  <div class="text-right">
+                                                      <a href="#" class="btn btn-primary mt-2 btn-sm">Detail TIM</a>
+                                                  </div>
+  
+                                              </div>
+                                          </li>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-4">
+                                      <div class="card" style="padding:10px;">
+                                        <li class="d-flex">
+                                            <img src="img/bg-img/500x500.png" style="width: 75px;
+                                            height: 75px;
+                                            border-radius: 50%;
+                                            border: 2px solid #DEDEDE;
+                                            padding: 2px;">
+                                            <div class="ml-3">
+                                                <h5 class="card-title" style="margin:0px;">TIM 2</h5>
+                                                <p style="margin:0px;">Kategori : Futsal</p>
+                                                <p style="margin:0px;">Jumlah Anggota : 100 Orang</p>
+                                                <div class="text-right">
+                                                    <a href="#" class="btn btn-primary mt-2 btn-sm">Detail TIM</a>
+                                                </div>
+
+                                            </div>
+                                        </li>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-4">
+                                        <div class="card" style="padding:10px;">
+                                          <li class="d-flex">
+                                              <img src="img/bg-img/500x500.png" style="width: 75px;
+                                              height: 75px;
+                                              border-radius: 50%;
+                                              border: 2px solid #DEDEDE;
+                                              padding: 2px;">
+                                              <div class="ml-3">
+                                                  <h5 class="card-title" style="margin:0px;">TIM 3</h5>
+                                                  <p style="margin:0px;">Kategori : Basket</p>
+                                                  <p style="margin:0px;">Jumlah Anggota : 13 Orang</p>
+                                                  <div class="text-right">
+                                                      <a href="#" class="btn btn-primary mt-2 btn-sm">Detail TIM</a>
+                                                  </div>
+  
+                                              </div>
+                                          </li>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-4">
+                                        <div class="card" style="padding:10px;">
+                                          <li class="d-flex">
+                                              <img src="img/bg-img/500x500.png" style="width: 75px;
+                                              height: 75px;
+                                              border-radius: 50%;
+                                              border: 2px solid #DEDEDE;
+                                              padding: 2px;">
+                                              <div class="ml-3">
+                                                  <h5 class="card-title" style="margin:0px;">TIM 4</h5>
+                                                  <p style="margin:0px;">Kategori : Basket</p>
+                                                  <p style="margin:0px;">Jumlah Anggota : 8 Orang</p>
+                                                  <div class="text-right">
+                                                      <a href="#" class="btn btn-primary mt-2 btn-sm">Detail TIM</a>
+                                                  </div>
+  
+                                              </div>
+                                          </li>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-4">
+                                        <div class="card" style="padding:10px;">
+                                          <li class="d-flex">
+                                              <img src="img/bg-img/500x500.png" style="width: 75px;
+                                              height: 75px;
+                                              border-radius: 50%;
+                                              border: 2px solid #DEDEDE;
+                                              padding: 2px;">
+                                              <div class="ml-3">
+                                                  <h5 class="card-title" style="margin:0px;">TIM 5</h5>
+                                                  <p style="margin:0px;">Kategori : Futsal</p>
+                                                  <p style="margin:0px;">Jumlah Anggota : 7 Orang</p>
+                                                  <div class="text-right">
+                                                      <a href="#" class="btn btn-primary mt-2 btn-sm">Detail TIM</a>
+                                                  </div>
+  
+                                              </div>
+                                          </li>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-4">
+                                        <div class="card" style="padding:10px;">
+                                          <li class="d-flex">
+                                              <img src="img/bg-img/500x500.png" style="width: 75px;
+                                              height: 75px;
+                                              border-radius: 50%;
+                                              border: 2px solid #DEDEDE;
+                                              padding: 2px;">
+                                              <div class="ml-3">
+                                                  <h5 class="card-title" style="margin:0px;">TIM 6</h5>
+                                                  <p style="margin:0px;">Kategori : Futsal</p>
+                                                  <p style="margin:0px;">Jumlah Anggota : 11 Orang</p>
+                                                  <div class="text-right">
+                                                      <a href="#" class="btn btn-primary mt-2 btn-sm">Detail TIM</a>
+                                                  </div>
+  
+                                              </div>
+                                          </li>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-4">
+                                        <div class="card" style="padding:10px;">
+                                          <li class="d-flex">
+                                              <img src="img/bg-img/500x500.png" style="width: 75px;
+                                              height: 75px;
+                                              border-radius: 50%;
+                                              border: 2px solid #DEDEDE;
+                                              padding: 2px;">
+                                              <div class="ml-3">
+                                                  <h5 class="card-title" style="margin:0px;">TIM 7</h5>
+                                                  <p style="margin:0px;">Kategori : Futsal</p>
+                                                  <p style="margin:0px;">Jumlah Anggota : 12 Orang</p>
+                                                  <div class="text-right">
+                                                      <a href="#" class="btn btn-primary mt-2 btn-sm">Detail TIM</a>
+                                                  </div>
+  
+                                              </div>
+                                          </li>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-4">
+                                        <div class="card" style="padding:10px;">
+                                          <li class="d-flex">
+                                              <img src="img/bg-img/500x500.png" style="width: 75px;
+                                              height: 75px;
+                                              border-radius: 50%;
+                                              border: 2px solid #DEDEDE;
+                                              padding: 2px;">
+                                              <div class="ml-3">
+                                                  <h5 class="card-title" style="margin:0px;">TIM 8</h5>
+                                                  <p style="margin:0px;">Kategori : Futsal</p>
+                                                  <p style="margin:0px;">Jumlah Anggota : 12 Orang</p>
+                                                  <div class="text-right">
+                                                      <a href="#" class="btn btn-primary mt-2 btn-sm">Detail TIM</a>
+                                                  </div>
+  
+                                              </div>
+                                          </li>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-4">
+                                        <div class="card" style="padding:10px;">
+                                          <li class="d-flex">
+                                              <img src="img/bg-img/500x500.png" style="width: 75px;
+                                              height: 75px;
+                                              border-radius: 50%;
+                                              border: 2px solid #DEDEDE;
+                                              padding: 2px;">
+                                              <div class="ml-3">
+                                                  <h5 class="card-title" style="margin:0px;">TIM 9</h5>
+                                                  <p style="margin:0px;">Kategori : Futsal</p>
+                                                  <p style="margin:0px;">Jumlah Anggota : 13 Orang</p>
+                                                  <div class="text-right">
+                                                      <a href="#" class="btn btn-primary mt-2 btn-sm">Detail TIM</a>
+                                                  </div>
+  
+                                              </div>
+                                          </li>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-4">
+                                        <div class="card" style="padding:10px;">
+                                          <li class="d-flex">
+                                              <img src="img/bg-img/500x500.png" style="width: 75px;
+                                              height: 75px;
+                                              border-radius: 50%;
+                                              border: 2px solid #DEDEDE;
+                                              padding: 2px;">
+                                              <div class="ml-3">
+                                                  <h5 class="card-title" style="margin:0px;">TIM 10</h5>
+                                                  <p style="margin:0px;">Kategori : Futsal</p>
+                                                  <p style="margin:0px;">Jumlah Anggota : 5 Orang</p>
+                                                  <div class="text-right">
+                                                      <a href="#" class="btn btn-primary mt-2 btn-sm">Detail TIM</a>
+                                                  </div>
+  
+                                              </div>
+                                          </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab-2">
+                                <h1 class="mt-4">Permintaan Anggota Baru</h1>
+                                <div class="request-new-member" style="padding: 20px 0;border-top: 1px solid #f1f2f2;border-bottom: 1px solid #f1f2f2;margin-bottom: 20px;">
+                                    <li class="row">
+                                        <div class="col-4 col-lg-2">
+                                            <img src="img/bg-img/500x500.png" style="width: 75px;height: 75px;border-radius: 50%;border: 2px solid #DEDEDE;padding: 2px;">
+                                        </div>
+                                        <div class="col-8 col-lg-8">
+                                            <h5 class="card-title" style="margin:0px;">Dika Hermawan</h5>
+                                            <p style="margin:0px;">Permintaan : TIM 1</p>
+                                            <p style="margin:0px;">Kategori : Futsal</p>
+                                        </div>
+                                        <div class="col-12 col-lg-2 text-right">
+                                            <a href="#" class="btn btn-primary mt-2 btn-sm" style="width:75px;">Setuju</a>
+                                            <a href="#" class="btn btn-danger mt-2 btn-sm" style="width:75px;">Tolak</a>
+                                        </div>
+
+                                    </li>
+                                </div>
+                                <div class="request-new-member" style="padding: 20px 0;border-top: 1px solid #f1f2f2;border-bottom: 1px solid #f1f2f2;margin-bottom: 20px;">
+                                    <li class="row">
+                                        <div class="col-4 col-lg-2">
+                                            <img src="img/bg-img/500x500.png" style="width: 75px;height: 75px;border-radius: 50%;border: 2px solid #DEDEDE;padding: 2px;">
+                                        </div>
+                                        <div class="col-8 col-lg-8">
+                                            <h5 class="card-title" style="margin:0px;">Rian Gunawan</h5>
+                                            <p style="margin:0px;">Permintaan : TIM 2</p>
+                                            <p style="margin:0px;">Kategori : Futsal</p>
+                                        </div>
+                                        <div class="col-12 col-lg-2 text-right">
+                                            <a href="#" class="btn btn-primary mt-2 btn-sm" style="width:75px;">Setuju</a>
+                                            <a href="#" class="btn btn-danger mt-2 btn-sm" style="width:75px;">Tolak</a>
+                                        </div>
+
+                                    </li>
+                                </div>
+                                <div class="request-new-member" style="padding: 20px 0;border-top: 1px solid #f1f2f2;border-bottom: 1px solid #f1f2f2;margin-bottom: 20px;">
+                                    <li class="row">
+                                        <div class="col-4 col-lg-2">
+                                            <img src="img/bg-img/500x500.png" style="width: 75px;height: 75px;border-radius: 50%;border: 2px solid #DEDEDE;padding: 2px;">
+                                        </div>
+                                        <div class="col-8 col-lg-8">
+                                            <h5 class="card-title" style="margin:0px;">Agus Mahendra</h5>
+                                            <p style="margin:0px;">Permintaan : TIM 3</p>
+                                            <p style="margin:0px;">Kategori : Basket</p>
+                                        </div>
+                                        <div class="col-12 col-lg-2 text-right">
+                                            <a href="#" class="btn btn-primary mt-2 btn-sm" style="width:75px;">Setuju</a>
+                                            <a href="#" class="btn btn-danger mt-2 btn-sm" style="width:75px;">Tolak</a>
+                                        </div>
+
+                                    </li>
+                                </div>
+                                <div class="request-new-member" style="padding: 20px 0;border-top: 1px solid #f1f2f2;border-bottom: 1px solid #f1f2f2;margin-bottom: 20px;">
+                                    <li class="row">
+                                        <div class="col-4 col-lg-2">
+                                            <img src="img/bg-img/500x500.png" style="width: 75px;height: 75px;border-radius: 50%;border: 2px solid #DEDEDE;padding: 2px;">
+                                        </div>
+                                        <div class="col-8 col-lg-8">
+                                            <h5 class="card-title" style="margin:0px;">Rizky Septiawan</h5>
+                                            <p style="margin:0px;">Permintaan : TIM 5</p>
+                                            <p style="margin:0px;">Kategori : Futsal</p>
+                                        </div>
+                                        <div class="col-12 col-lg-2 text-right">
+                                            <a href="#" class="btn btn-primary mt-2 btn-sm" style="width:75px;">Setuju</a>
+                                            <a href="#" class="btn btn-danger mt-2 btn-sm" style="width:75px;">Tolak</a>
+                                        </div>
+
+                                    </li>
+                                </div>
+                                <div class="request-new-member" style="padding: 20px 0;border-top: 1px solid #f1f2f2;border-bottom: 1px solid #f1f2f2;margin-bottom: 20px;">
+                                    <li class="row">
+                                        <div class="col-4 col-lg-2">
+                                            <img src="img/bg-img/500x500.png" style="width: 75px;height: 75px;border-radius: 50%;border: 2px solid #DEDEDE;padding: 2px;">
+                                        </div>
+                                        <div class="col-8 col-lg-8">
+                                            <h5 class="card-title" style="margin:0px;">Ali Firdaus</h5>
+                                            <p style="margin:0px;">Permintaan : TIM 4</p>
+                                            <p style="margin:0px;">Kategori : Basket</p>
+                                        </div>
+                                        <div class="col-12 col-lg-2 text-right">
+                                            <a href="#" class="btn btn-primary mt-2 btn-sm" style="width:75px;">Setuju</a>
+                                            <a href="#" class="btn btn-danger mt-2 btn-sm" style="width:75px;">Tolak</a>
+                                        </div>
+
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab-3">
+                                <h1 class="mt-4">Undangan Baru</h1>
+                                <div class="request-new-team" style="padding: 20px 0;border-top: 1px solid #f1f2f2;border-bottom: 1px solid #f1f2f2;margin-bottom: 20px;">
+                                    <li class="row">
+                                        <div class="col-4 col-lg-2">
+                                            <img src="img/bg-img/500x500.png" style="width: 75px;height: 75px;border-radius: 50%;border: 2px solid #DEDEDE;padding: 2px;">
+                                        </div>
+                                        <div class="col-8 col-lg-8">
+                                            <h5 class="card-title" style="margin:0px;">TIM 11</h5>
+                                            <p style="margin:0px;">Kategori : Futsal</p>
+                                            <p style="margin:0px;">Jumlah Anggota : 10 Anggota</p>
+                                        </div>
+                                        <div class="col-12 col-lg-2 text-right">
+                                            <a href="#" class="btn btn-primary mt-2 btn-sm" style="width:75px;">Setuju</a>
+                                            <a href="#" class="btn btn-danger mt-2 btn-sm" style="width:75px;">Tolak</a>
+                                        </div>
+
+                                    </li>
+                                </div>
+                                <div class="request-new-team" style="padding: 20px 0;border-top: 1px solid #f1f2f2;border-bottom: 1px solid #f1f2f2;margin-bottom: 20px;">
+                                    <li class="row">
+                                        <div class="col-4 col-lg-2">
+                                            <img src="img/bg-img/500x500.png" style="width: 75px;height: 75px;border-radius: 50%;border: 2px solid #DEDEDE;padding: 2px;">
+                                        </div>
+                                        <div class="col-8 col-lg-8">
+                                            <h5 class="card-title" style="margin:0px;">TIM 12</h5>
+                                            <p style="margin:0px;">Kategori : Voli</p>
+                                            <p style="margin:0px;">Jumlah Anggota : 9 Anggota</p>
+                                        </div>
+                                        <div class="col-12 col-lg-2 text-right">
+                                            <a href="#" class="btn btn-primary mt-2 btn-sm" style="width:75px;">Setuju</a>
+                                            <a href="#" class="btn btn-danger mt-2 btn-sm" style="width:75px;">Tolak</a>
+                                        </div>
+
+                                    </li>
+                                </div>
+                                <div class="request-new-team" style="padding: 20px 0;border-top: 1px solid #f1f2f2;border-bottom: 1px solid #f1f2f2;margin-bottom: 20px;">
+                                    <li class="row">
+                                        <div class="col-4 col-lg-2">
+                                            <img src="img/bg-img/500x500.png" style="width: 75px;height: 75px;border-radius: 50%;border: 2px solid #DEDEDE;padding: 2px;">
+                                        </div>
+                                        <div class="col-8 col-lg-8">
+                                            <h5 class="card-title" style="margin:0px;">TIM 13</h5>
+                                            <p style="margin:0px;">Kategori : Futsal</p>
+                                            <p style="margin:0px;">Jumlah Anggota : 7 Anggota</p>
+                                        </div>
+                                        <div class="col-12 col-lg-2 text-right">
+                                            <a href="#" class="btn btn-primary mt-2 btn-sm" style="width:75px;">Setuju</a>
+                                            <a href="#" class="btn btn-danger mt-2 btn-sm" style="width:75px;">Tolak</a>
+                                        </div>
+
+                                    </li>
+                                </div>
+                                <div class="request-new-team" style="padding: 20px 0;border-top: 1px solid #f1f2f2;border-bottom: 1px solid #f1f2f2;margin-bottom: 20px;">
+                                    <li class="row">
+                                        <div class="col-4 col-lg-2">
+                                            <img src="img/bg-img/500x500.png" style="width: 75px;height: 75px;border-radius: 50%;border: 2px solid #DEDEDE;padding: 2px;">
+                                        </div>
+                                        <div class="col-8 col-lg-8">
+                                            <h5 class="card-title" style="margin:0px;">TIM 14</h5>
+                                            <p style="margin:0px;">Kategori : Basket</p>
+                                            <p style="margin:0px;">Jumlah Anggota : 4 Anggota</p>
+                                        </div>
+                                        <div class="col-12 col-lg-2 text-right">
+                                            <a href="#" class="btn btn-primary mt-2 btn-sm" style="width:75px;">Setuju</a>
+                                            <a href="#" class="btn btn-danger mt-2 btn-sm" style="width:75px;">Tolak</a>
+                                        </div>
+
+                                    </li>
+                                </div>
+                                <div class="request-new-team" style="padding: 20px 0;border-top: 1px solid #f1f2f2;border-bottom: 1px solid #f1f2f2;margin-bottom: 20px;">
+                                    <li class="row">
+                                        <div class="col-4 col-lg-2">
+                                            <img src="img/bg-img/500x500.png" style="width: 75px;height: 75px;border-radius: 50%;border: 2px solid #DEDEDE;padding: 2px;">
+                                        </div>
+                                        <div class="col-8 col-lg-8">
+                                            <h5 class="card-title" style="margin:0px;">TIM 15</h5>
+                                            <p style="margin:0px;">Kategori : Futsal</p>
+                                            <p style="margin:0px;">Jumlah Anggota : 34 Anggota</p>
+                                        </div>
+                                        <div class="col-12 col-lg-2 text-right">
+                                            <a href="#" class="btn btn-primary mt-2 btn-sm" style="width:75px;">Setuju</a>
+                                            <a href="#" class="btn btn-danger mt-2 btn-sm" style="width:75px;">Tolak</a>
+                                        </div>
+
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="tab-pane create-team-area" id="tab-4">
+                                <h1 class="mt-4">Buat TIM Baru</h1>
+                                <div class="row">
+                                    <div class="col-12 col-lg-2 mb-15">
+                                        <label class="title_drop_target">
+                                            <i class="fa fa-picture-o"></i>&nbsp;Logo TIM
+                                        </label>
+                                        <label class="drop_target">
+                                            <div class="image_preview"></div>
+                                            <input id="inputFile" type="file"/>
+                                        </label>
+                                        <a class="anchor disabled" data-action="remove_current_image" style="">
+                                            <i class="fa fa-ban"></i> Hapus
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-lg-10">
+                                        <div class="row">
+                                            <div class="col-12 col-md-12 col-lg-6 mb-15">
+                                                <label for="InputKeyword"><i class="fa fa-search"></i> &nbsp; Nama TIM</label>
+                                                <input type="text" class="form-control" id="InputKeyword" name="input-keyword" placeholder="Masukkan Kata Kunci">
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-6 mb-15">
+                                                <label for="InputCategory"><i class="fa fa-gamepad"></i> &nbsp; Kategori </label>
+                                                <select name="input-category" id="InputCategory" class="form-control">
+                                                    <option value="0">-- Pilih Kategori --</option>
+                                                    <option value="02">Futsal</option>
+                                                    <option value="03">Tenis</option>
+                                                    <option value="04">Bulu Tangkis</option>
+                                                    <option value="05">Basket</option>
+                                                    <option value="06">Fitness</option>
+                                                    <option value="07">Gedung Serbaguna</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12 col-md-12 col-lg-6 mb-15">
+                                                <label for="InputKeyword"><i class="fa fa-search"></i> &nbsp; Jumlah Anggota TIM</label>
+                                                <input type="number" max="100" min="0" class="form-control" id="InputKeyword" name="input-keyword" placeholder="Masukkan Kata Kunci">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-12 col-lg-12 mb-15">
+                                        <h6>Undang Teman</h6>
+                                        <div class="row">
+                                            <div class="col-sm-12 mb-3">
+                                              <input type="text" id="filterFriend" class="form-control" onkeyup="filterFriendFunction()" placeholder="Ketik Email Temanmu..">
+                                            </div>
+                                        </div>
+                                        <div class="row" id="friendItems">
+                                            <div class="col-12 col-lg-6 invite-friends mb-4" style="display:none;">
+                                                <div class="card" style="padding:10px;">
+                                                    <li class="d-flex" style="word-break: break-all;">
+                                                        <img src="img/bg-img/500x500.png" style="width: 75px;
+                                                        height: 75px;
+                                                        border-radius: 50%;
+                                                        border: 2px solid #DEDEDE;
+                                                        padding: 2px;">
+                                                        <div class="ml-3">
+                                                            <h5 class="card-title" style="margin:0px;">Adi Krisnayadi</h5>
+                                                            <h6 class="card-subtitle text-muted" style="margin:0px;"><i class="fa fa-envelope"></i> adikrisnayadi@gmail.com</h6>
+                                                            <div class="text-right">
+                                                                <a href="#" class="btn mt-2 pusraga-btn btn-sm">Undang ke TIM</a>
+                                                            </div>            
+                                                        </div>
+                                                    </li>                                                        
+                                                </div>
+                                            </div> 
+                                            <div class="col-12 col-lg-6 invite-friends mb-4" style="display:none;">
+                                                <div class="card" style="padding:10px;">
+                                                    <li class="d-flex" style="word-break: break-all;">
+                                                        <img src="img/bg-img/500x500.png" style="width: 75px;
+                                                        height: 75px;
+                                                        border-radius: 50%;
+                                                        border: 2px solid #DEDEDE;
+                                                        padding: 2px;">
+                                                        <div class="ml-3">
+                                                            <h5 class="card-title" style="margin:0px;">Mohamad Rizki</h5>
+                                                            <h6 class="card-subtitle text-muted" style="margin:0px;"><i class="fa fa-envelope"></i> rizki.m@gmail.com</h6>
+                                                            <div class="text-right">
+                                                                <a href="#" class="btn mt-2 pusraga-btn btn-sm">Undang ke TIM</a>
+                                                            </div>            
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6 invite-friends mb-4" style="display:none;">
+                                                <div class="card" style="padding:10px;">
+                                                    <li class="d-flex" style="word-break: break-all;">
+                                                        <img src="img/bg-img/500x500.png" style="width: 75px;
+                                                        height: 75px;
+                                                        border-radius: 50%;
+                                                        border: 2px solid #DEDEDE;
+                                                        padding: 2px;">
+                                                        <div class="ml-3">
+                                                            <h5 class="card-title" style="margin:0px;">Samsul Nur Hidayat</h5>
+                                                            <h6 class="card-subtitle text-muted" style="margin:0px;"><i class="fa fa-envelope"></i> snur_hidayat@gmail.com</h6>
+                                                            <div class="text-right">
+                                                                <a href="#" class="btn mt-2 pusraga-btn btn-sm">Undang ke TIM</a>
+                                                            </div>            
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                            </div>                                        
+                                            <div class="col-12 col-lg-6 invite-friends mb-4" style="display:none;">
+                                                <div class="card" style="padding:10px;">
+                                                    <li class="d-flex" style="word-break: break-all;">
+                                                        <img src="img/bg-img/500x500.png" style="width: 75px;
+                                                        height: 75px;
+                                                        border-radius: 50%;
+                                                        border: 2px solid #DEDEDE;
+                                                        padding: 2px;">
+                                                        <div class="ml-3">
+                                                            <h5 class="card-title" style="margin:0px;">Widia Winda Sari</h5>
+                                                            <h6 class="card-subtitle text-muted" style="margin:0px;"><i class="fa fa-envelope"></i> wwindasari@gmail.com</h6>
+                                                            <div class="text-right">
+                                                                <a href="#" class="btn mt-2 pusraga-btn btn-sm">Undang ke TIM</a>
+                                                            </div>            
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6 invite-friends mb-4" style="display:none;">
+                                                <div class="card" style="padding:10px;">
+                                                    <li class="d-flex" style="word-break: break-all;">
+                                                        <img src="img/bg-img/500x500.png" style="width: 75px;
+                                                        height: 75px;
+                                                        border-radius: 50%;
+                                                        border: 2px solid #DEDEDE;
+                                                        padding: 2px;">
+                                                        <div class="ml-3">
+                                                            <h5 class="card-title" style="margin:0px;">Daffa Dwi Putra</h5>
+                                                            <h6 class="card-subtitle text-muted" style="margin:0px;"><i class="fa fa-envelope"></i> daf.dwiput@gmail.com</h6>
+                                                            <div class="text-right">
+                                                                <a href="#" class="btn mt-2 pusraga-btn btn-sm">Undang ke TIM</a>
+                                                            </div>            
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6 invite-friends mb-4" style="display:none;">
+                                                <div class="card" style="padding:10px;">
+                                                    <li class="d-flex" style="word-break: break-all;">
+                                                        <img src="img/bg-img/500x500.png" style="width: 75px;
+                                                        height: 75px;
+                                                        border-radius: 50%;
+                                                        border: 2px solid #DEDEDE;
+                                                        padding: 2px;">
+                                                        <div class="ml-3">
+                                                            <h5 class="card-title" style="margin:0px;">Amir Rhamadan</h5>
+                                                            <h6 class="card-subtitle text-muted" style="margin:0px;"><i class="fa fa-envelope"></i> amirrhamadan@gmail.com</h6>
+                                                            <div class="text-right">
+                                                                <a href="#" class="btn mt-2 pusraga-btn btn-sm">Undang ke TIM</a>
+                                                            </div>            
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6 invite-friends mb-4" style="display:none;">
+                                                <div class="card" style="padding:10px;">
+                                                    <li class="d-flex" style="word-break: break-all;">
+                                                        <img src="img/bg-img/500x500.png" style="width: 75px;
+                                                        height: 75px;
+                                                        border-radius: 50%;
+                                                        border: 2px solid #DEDEDE;
+                                                        padding: 2px;">
+                                                        <div class="ml-3">
+                                                            <h5 class="card-title" style="margin:0px;">Ardian Secar</h5>
+                                                            <h6 class="card-subtitle text-muted" style="margin:0px;"><i class="fa fa-envelope"></i> secar.ardian@gmail.com</h6>
+                                                            <div class="text-right">
+                                                                <a href="#" class="btn mt-2 pusraga-btn btn-sm">Undang ke TIM</a>
+                                                            </div>            
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6 invite-friends mb-4" style="display:none;">
+                                                <div class="card" style="padding:10px;">
+                                                    <li class="d-flex" style="word-break: break-all;">
+                                                        <img src="img/bg-img/500x500.png" style="width: 75px;
+                                                        height: 75px;
+                                                        border-radius: 50%;
+                                                        border: 2px solid #DEDEDE;
+                                                        padding: 2px;">
+                                                        <div class="ml-3">
+                                                            <h5 class="card-title" style="margin:0px;">Vira Septhyana</h5>
+                                                            <h6 class="card-subtitle text-muted" style="margin:0px;"><i class="fa fa-envelope"></i> virsep@gmail.com</h6>
+                                                            <div class="text-right">
+                                                                <a href="#" class="btn mt-2 pusraga-btn btn-sm">Undang ke TIM</a>
+                                                            </div>            
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-12 col-lg-12 mb-15">
+                                        <button type="submit" class="form-control btn roberto-btn w-100">Buat TIM</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane join-team-area" id="tab-5">
+                                <h1 class="mt-4">Bergabung dengan TIM</h1>
+                                <div class="row">
+                                    <div class="col-12 ">
+                                        <nav>
+                                            <div class="nav nav-tabs nav-fill" id="join-team-tab">
+                                                <a class="nav-item nav-link active" id="jt-request-tab" data-toggle="tab" href="#jt-request-tabContent">Belum Disetujui</a>
+                                                <a class="nav-item nav-link" id="jt-find-tab" data-toggle="tab" href="#jt-find-tabContent">Cari TIM</a>
+                                            </div>
+                                        </nav>
+                                        <div class="jt-tab-content py-3 px-3 px-sm-0" id="jt-tabContent">
+                                            <div class="jt-tab-pane" id="jt-request-tabContent">
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-6 mb-4">
+                                                        <div class="card" style="padding:10px;">
+                                                            <div class="row text-center">
+                                                                <div class="col-12 col-lg-4">
+                                                                    <img src="img/bg-img/500x500.png" style="width: 75px;
+                                                                    height: 75px;
+                                                                    border-radius: 50%;
+                                                                    border: 2px solid #DEDEDE;
+                                                                    padding: 2px;">    
+                                                                </div>
+                                                                <div class="col-12 col-lg-8">
+                                                                    <h5 class="card-title" style="margin:0px;">TIM Request Saya 1</h5>
+                                                                    <h6 class="card-subtitle text-muted" style="margin:0px;"><i class="fa fa-gamepad"></i> Futsal (43 Orang)</h6>
+                                                                    <a href="#" class="btn mt-2 pusraga-btn btn-danger btn-sm">Batalkan Permintaan</a>                                                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-6 mb-4">
+                                                        <div class="card" style="padding:10px;">
+                                                            <div class="row text-center">
+                                                                <div class="col-12 col-lg-4">
+                                                                    <img src="img/bg-img/500x500.png" style="width: 75px;
+                                                                    height: 75px;
+                                                                    border-radius: 50%;
+                                                                    border: 2px solid #DEDEDE;
+                                                                    padding: 2px;">    
+                                                                </div>
+                                                                <div class="col-12 col-lg-8">
+                                                                    <h5 class="card-title" style="margin:0px;">TIM Request Saya 2</h5>
+                                                                    <h6 class="card-subtitle text-muted" style="margin:0px;"><i class="fa fa-gamepad"></i> Basket (37 Orang)</h6>
+                                                                    <a href="#" class="btn mt-2 pusraga-btn btn-danger btn-sm">Batalkan Permintaan</a>                                                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-6 mb-4">
+                                                        <div class="card" style="padding:10px;">
+                                                            <div class="row text-center">
+                                                                <div class="col-12 col-lg-4">
+                                                                    <img src="img/bg-img/500x500.png" style="width: 75px;
+                                                                    height: 75px;
+                                                                    border-radius: 50%;
+                                                                    border: 2px solid #DEDEDE;
+                                                                    padding: 2px;">    
+                                                                </div>
+                                                                <div class="col-12 col-lg-8">
+                                                                    <h5 class="card-title" style="margin:0px;">TIM Request Saya 3</h5>
+                                                                    <h6 class="card-subtitle text-muted" style="margin:0px;"><i class="fa fa-gamepad"></i> Bulu Tangkis (22 Orang)</h6>
+                                                                    <a href="#" class="btn mt-2 pusraga-btn btn-danger btn-sm">Batalkan Permintaan</a>                                                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="jt-tab-pane" id="jt-find-tabContent">
+                                                <div class="row">
+                                                    <div class="col-sm-12 mb-3">
+                                                      <input type="text" id="filterTeam" class="form-control" onkeyup="filterTeamFunction()" placeholder="Ketik Kode Tim..">
+                                                    </div>
+                                                </div>
+                                                <div class="row" id="teamItems">
+                                                    <div class="col-12 col-lg-6 mb-4 find-team-list" style="display:none;">
+                                                        <div class="card" style="padding:10px;">
+                                                            <div class="row text-center">
+                                                                <div class="col-12 col-lg-4">
+                                                                    <img src="img/bg-img/500x500.png" style="width: 75px;
+                                                                    height: 75px;
+                                                                    border-radius: 50%;
+                                                                    border: 2px solid #DEDEDE;
+                                                                    padding: 2px;">    
+                                                                </div>
+                                                                <div class="col-12 col-lg-8">
+                                                                    <h5 class="card-title" style="margin:0px;">TIM Keren</h5>
+                                                                    <h6 class="card-subtitle text-muted" style="margin:0px;"><i class="fa fa-gamepad"></i> Futsal (22 Orang)</h6>
+                                                                    <a href="#" class="btn mt-2 pusraga-btn btn-sm">Kirimkan Permintaan</a>                                                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-6 mb-4 find-team-list" style="display:none;">
+                                                        <div class="card" style="padding:10px;">
+                                                            <div class="row text-center">
+                                                                <div class="col-12 col-lg-4">
+                                                                    <img src="img/bg-img/500x500.png" style="width: 75px;
+                                                                    height: 75px;
+                                                                    border-radius: 50%;
+                                                                    border: 2px solid #DEDEDE;
+                                                                    padding: 2px;">    
+                                                                </div>
+                                                                <div class="col-12 col-lg-8">
+                                                                    <h5 class="card-title" style="margin:0px;">TIM Spesial</h5>
+                                                                    <h6 class="card-subtitle text-muted" style="margin:0px;"><i class="fa fa-gamepad"></i> Bulu Tangkis (22 Orang)</h6>
+                                                                    <a href="#" class="btn mt-2 pusraga-btn btn-sm">Kirimkan Permintaan</a>                                                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-6 mb-4 find-team-list" style="display:none;">
+                                                        <div class="card" style="padding:10px;">
+                                                            <div class="row text-center">
+                                                                <div class="col-12 col-lg-4">
+                                                                    <img src="img/bg-img/500x500.png" style="width: 75px;
+                                                                    height: 75px;
+                                                                    border-radius: 50%;
+                                                                    border: 2px solid #DEDEDE;
+                                                                    padding: 2px;">    
+                                                                </div>
+                                                                <div class="col-12 col-lg-8">
+                                                                    <h5 class="card-title" style="margin:0px;">TIM Istimewa</h5>
+                                                                    <h6 class="card-subtitle text-muted" style="margin:0px;"><i class="fa fa-gamepad"></i> Basket (22 Orang)</h6>
+                                                                    <a href="#" class="btn mt-2 pusraga-btn btn-sm">Kirimkan Permintaan</a>                                                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Area Start -->
+        <footer class="footer-area section-padding-80-0">
+            <!-- Main Footer Area -->
+            <div class="main-footer-area">
+                <div class="container">
+                    <div class="row align-items-baseline justify-content-between">
+                        <!-- Single Footer Widget Area -->
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="single-footer-widget mb-80">
+                                <!-- Footer Logo -->
+                                <a href="#" class="footer-logo">
+                                    <!-- <img src="img/core-img/logo2.png" alt=""> -->
+                                    <h1 class="text-white">PUSRAGA</h1>
+                                </a>
+                                <h4>+62 812-3456-7890</h4>
+                                <span>cspusraga@gmail.com</span>
+                                <span>Grand Galaxy City Blok A No.1A, Kota Bekasi, 17147</span>
+                            </div>
+                        </div>
+
+                        <!-- Single Footer Widget Area -->
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="single-footer-widget mb-80">
+                                <!-- Widget Title -->
+                                <h5 class="widget-title">Artikel & Berita</h5>
+
+                                <!-- Single Blog Area -->
+                                <div class="latest-blog-area">
+                                    <a href="#" class="post-title">Konstruksi Tiga Arena PON XX Rampung</a>
+                                    <span class="post-date"><i class="fa fa-clock-o" aria-hidden="true"></i> 31 Mei 2020</span>
+                                </div>
+
+                                <!-- Single Blog Area -->
+                                <div class="latest-blog-area">
+                                    <a href="#" class="post-title">6 Juni Jadi Hari Olahraga Berkuda Nasional</a>
+                                    <span class="post-date"><i class="fa fa-clock-o" aria-hidden="true"></i> 06 Juni 2020</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Footer Widget Area -->
+                        <div class="col-12 col-sm-4 col-lg-2">
+                            <div class="single-footer-widget mb-80">
+                                <!-- Widget Title -->
+                                <h5 class="widget-title">Tautan</h5>
+
+                                <!-- Footer Nav -->
+                                <ul class="footer-nav">
+                                    <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Tentang Kami</a></li>
+                                    <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Cari Arena</a></li>
+                                    <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Karir Pusraga</a></li>
+                                    <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Single Footer Widget Area -->
+                        <div class="col-12 col-sm-8 col-lg-4">
+                            <div class="single-footer-widget mb-80">
+                                <!-- Widget Title -->
+                                <h5 class="widget-title">Langganan Newsletter</h5>
+                                <span>Berlangganan newsletter kami dan dapatkan pemberitahuan tentang pembaruan baru.</span>
+
+                                <!-- Newsletter Form -->
+                                <form action="index.html" class="nl-form">
+                                    <input type="email" class="form-control" placeholder="Masukkan Emailmu...">
+                                    <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copywrite Area -->
+            <div class="container">
+                <div class="copywrite-content">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-8">
+                            <!-- Copywrite Text -->
+                            <div class="copywrite-text">
+                                <p>Copyright &copy;2020 All rights reserved</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <!-- Social Info -->
+                            <div class="social-info">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Area End -->
+
+        <!-- **** All JS Files ***** -->
+        <!-- jQuery 2.2.4 -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Popper -->
+        <script src="js/popper.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- All Plugins -->
+        <script src="js/roberto.bundle.js"></script>
+        <!-- Active -->
+        <script src="js/default-assets/active.js"></script>
+        <script>
+            $(function() {
+                //hide all tabs first
+                $('.tab-pane').hide();
+                
+                //show the first tab content
+                $('#tab-1').show();
+                
+                var $a = $(".pusraga-team-area .list-unstyled li");
+                $a.click(function() {
+                    $a.removeClass("active");
+                    $(this).addClass("active");
+                    var value = $(this).attr('id');
+                    $('.tab-pane').hide(1000);
+                    $(".tab-content #tab-" + value).show(1000);
+                    $("#select-box").val(value);
+                    $('select').niceSelect('update');
+                });
+
+                $('#select-box').change(function () {
+                    value = $('#select-box').val();
+                    //first hide all tabs again when a new option is selected
+                    $('.tab-pane').hide(1000);
+                    //then show the tab content of whatever option value was selected
+                    $(".tab-content #tab-" + value).show(1000);
+                    $(".pusraga-team-area .list-unstyled li").removeClass("active");
+                    $(".pusraga-team-area .list-unstyled #"+ value).addClass("active");   
+                });
+            });
+        </script>
+        <script>
+            var $dropzone = $('.image_picker'),
+                $droptarget = $('.drop_target'),
+                $dropinput = $('#inputFile'),
+                $dropimg = $('.image_preview'),
+                $remover = $('[data-action="remove_current_image"]');
+
+            $dropzone.on('dragover', function() {
+            $droptarget.addClass('dropping');
+            return false;
+            });
+
+            $dropzone.on('dragend dragleave', function() {
+            $droptarget.removeClass('dropping');
+            return false;
+            });
+
+            $dropzone.on('drop', function(e) {
+            $droptarget.removeClass('dropping');
+            $droptarget.addClass('dropped');
+            $remover.removeClass('disabled');
+            e.preventDefault();
+            
+            var file = e.originalEvent.dataTransfer.files[0],
+                reader = new FileReader();
+
+            reader.onload = function(event) {
+                $dropimg.css('background-image', 'url(' + event.target.result + ')');
+            };
+            
+            console.log(file);
+            reader.readAsDataURL(file);
+
+            return false;
+            });
+
+            $dropinput.change(function(e) {
+            $droptarget.addClass('dropped');
+            $remover.removeClass('disabled');
+            $('.image_title input').val('');
+            
+            var file = $dropinput.get(0).files[0],
+                reader = new FileReader();
+            
+            reader.onload = function(event) {
+                $dropimg.css('background-image', 'url(' + event.target.result + ')');
+            }
+            
+            reader.readAsDataURL(file);
+            });
+
+            $remover.on('click', function() {
+            $dropimg.css('background-image', '');
+            $droptarget.removeClass('dropped');
+            $remover.addClass('disabled');
+            $('.image_title input').val('');
+            });
+
+            $('.image_title input').blur(function() {
+            if ($(this).val() != '') {
+                $droptarget.removeClass('dropped');
+            }
+            });
+        </script>
+        <script>
+            function filterFriendFunction() {
+                var input, filter, cards, cardContainer, h5, title, subtitle,i;
+                input = document.getElementById("filterFriend");
+                filter = input.value.toUpperCase();
+                cardContainer = document.getElementById("friendItems");
+                cards = cardContainer.getElementsByClassName("invite-friends");
+                for (i = 0; i < cards.length; i++) 
+                {
+                    
+                title = cards[i].querySelector(".card h5.card-title");
+                subtitle = cards[i].querySelector(".card h6.card-subtitle");
+                    if (title.innerText.toUpperCase().indexOf(filter) > -1 || subtitle.innerText.toUpperCase().indexOf(filter) > -1) {
+                        cards[i].style.display = "";
+                    } else {
+                        cards[i].style.display = "none";
+                    }
+                }
+            }
+        </script>
+        <script>
+            //hide all Join Team tabs first
+            $('.jt-tab-pane').hide();
+            
+            //show the first Join Team tab content
+            $('#jt-request-tabContent').show();
+
+            var $jtSelect = $(".tab-pane.join-team-area #join-team-tab a");
+            $jtSelect.click(function() {
+                var jtHref = $(this).attr('href');
+                console.log(jtHref);
+                $('.jt-tab-pane').hide(1000);
+                $(jtHref).show(1000);
+            });
+        </script>
+        <script>
+            function filterTeamFunction() {
+                var inputTeam, filterTeam, cardsTeam, cardContainerTeam, h5Team, titleTeam, subtitleTeam,iTeam;
+                inputTeam = document.getElementById("filterTeam");
+                filterTeam = inputTeam.value.toUpperCase();
+                cardContainerTeam = document.getElementById("teamItems");
+                cardsTeam = cardContainerTeam.getElementsByClassName("find-team-list");
+                for (i = 0; i < cardsTeam.length; i++) 
+                {
+                    
+                titleTeam = cardsTeam[i].querySelector(".card h5.card-title");
+                subtitleTeam = cardsTeam[i].querySelector(".card h6.card-subtitle");
+                    if (titleTeam.innerText.toUpperCase().indexOf(filterTeam) > -1 || subtitleTeam.innerText.toUpperCase().indexOf(filterTeam) > -1) {
+                        cardsTeam[i].style.display = "";
+                    } else {
+                        cardsTeam[i].style.display = "none";
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>
